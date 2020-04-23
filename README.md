@@ -1,4 +1,4 @@
-LksCoin Core staging tree 3.0.0.3
+LKSCOIN Core staging tree 3.0.0.4
 ===============================
 
 `master:` [![Build Status](https://travis-ci.org/lkspay/lks.svg?branch=master)](https://travis-ci.org/lkspay/lks) `develop:` [![Build Status](https://travis-ci.org/lkspay/lks.svg?branch=develop)](https://travis-ci.org/lkspay/lks/branches)
