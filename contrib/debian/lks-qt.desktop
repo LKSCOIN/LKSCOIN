@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Lksc Core
+Comment=Lksc P2P Cryptocurrency
+Comment[de]=Verbinde mit dem Lksc peer-to-peer Netzwerk
+Comment[fr]=Lksc, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Lksc, eşten eşe kriptografik sanal para birimi
+Exec=lks-qt %u
+Terminal=false
+Type=Application
+Icon=lks128
+MimeType=x-scheme-handler/lks;
+Categories=Office;Finance;
