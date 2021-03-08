@@ -1,4 +1,4 @@
-Lksc Core staging tree 3.2
+Lksc Core staging tree 3.2.0.1
 ===========================
 
 `master:` [![Build Status](https://travis-ci.org/lkspay/lks.svg?branch=master)](https://travis-ci.org/lkspay/lks) `develop:` [![Build Status](https://travis-ci.org/lkspay/lks.svg?branch=develop)](https://travis-ci.org/lkspay/lks/branches)
