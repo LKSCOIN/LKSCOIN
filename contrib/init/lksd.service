@@ -1,0 +1,22 @@
+[Unit]
+Description=Lks's distributed currency daemon
+After=network.target
+
+[Service]
+User=lkscore
+Group=lkscore
+
+Type=forking
+PIDFile=/var/lib/lksd/lksd.pid
+ExecStart=/usr/bin/lksd -daemon -pid=/var/lib/lksd/lksd.pid \
+-conf=/etc/lkscore/lks.conf -datadir=/var/lib/lksd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
