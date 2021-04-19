@@ -1,0 +1,25 @@
+# It is not recommended to modify this file in-place, because it will
+# be overwritten during package upgrades. If you want to add further
+# options or overwrite existing ones then use
+# $ systemctl edit lksd.service
+# See "man systemd.service" for details.
+
+# Note that almost all daemon options could be specified in
+# /etc/lks/lks.conf
+
+[Unit]
+Description=Lks daemon
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/lksd -daemon -conf=/etc/lks/lks.conf -pid=/run/lksd/lksd.pid
+# Creates /run/lks owned by lkscore
+RuntimeDirectory=lksd
+User=lkscore
+Type=forking
+PIDFile=/run/lksd/lksd.pid
+Restart=on-failure
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

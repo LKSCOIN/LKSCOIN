@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=Lksc Core
+Comment=Lks P2P Cryptocurrency
+Comment[de]=Verbinde mit dem Lks peer-to-peer Netzwerk
+Comment[fr]=Lks, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Lks, eşten eşe kriptografik sanal para birimi
+Exec=lks-qt %u
+Terminal=false
+Type=Application
+Icon=lks128
+MimeType=x-scheme-handler/lks;
+Categories=Office;Finance;
+StartupWMClass=Lks-qt

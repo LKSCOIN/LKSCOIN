@@ -1,0 +1,6 @@
+usr/local/bin/lks-qt usr/bin
+share/pixmaps/lks32.xpm usr/share/pixmaps
+share/pixmaps/lks16.xpm usr/share/pixmaps
+share/pixmaps/lks128.png usr/share/pixmaps
+debian/lks-qt.desktop usr/share/applications
+debian/lks-qt.protocol usr/share/kde4/services/
